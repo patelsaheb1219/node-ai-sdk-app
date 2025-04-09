@@ -1,0 +1,29 @@
+{
+  "name": "wiki-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/wikipedia.ts"
+  },
+  "keywords": [],
+  "author": "Kishan Patel",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@agentic/wikipedia": "^7.5.3",
+    "@ai-sdk/mistral": "^1.2.0",
+    "ai": "^4.2.0",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "npm": "^11.2.0",
+    "zod": "^3.24.2"
+  }
+}
